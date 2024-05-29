@@ -610,28 +610,30 @@
 
 // է) սիմետրիկ թվերի միջին թվաբանականը,
 
-function isSimetrik(num){
-  let str = num + "";
-  let arr = [];
-  for(let i = str.length - 1; i >= 0; i--){
-    arr.push(str[i]);
-  }
-  if(str == arr.join("")){
-    return true
-  }else {
-    return false
-  }
-}
-let arr = [243,535,3445,101]
-let sum = 0;
-let count = 0;
+// function isSimetrik(num){
+//   let str = num + "";
+//   let arr = [];
+//   for(let i = str.length - 1; i >= 0; i--){
+//     arr.push(str[i]);
+//   }
+//   if(str == arr.join("")){
+//     return true
+//   }else {
+//     return false
+//   }
+// }
+// let arr = [243,535,3445,101]
+// let sum = 0;
+// let count = 0;
 
-for(let i = 0; i < arr.length; i++){
-  if(isSimetrik(arr[i]) === true){
-    sum = sum + arr[i];
-    count++
-  }
-}
+// for(let i = 0; i < arr.length; i++){
+//   if(isSimetrik(arr[i]) === true){
+//     sum = sum + arr[i];
+//     count++
+//   }
+// }
 
-let mijin = sum / count
-console.log(mijin)
+// let mijin = sum / count
+// console.log(mijin)
+
+let arr = []
